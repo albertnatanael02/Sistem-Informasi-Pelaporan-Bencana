@@ -45,7 +45,7 @@ if ($petugas = $stmt->fetch()) {
         $_SESSION['id_desa'] = $petugas['id_desa'];
         $_SESSION['nama']    = $petugas['nama'];
         $_SESSION['role']    = 'petugas';
-        header("Location: ../petugas/dashboard.php");
+        header("Location: ../pages/petugas/dashboard.php");
         exit;
     }
 }
